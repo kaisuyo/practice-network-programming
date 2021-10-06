@@ -1,0 +1,17 @@
+bacnd	123123	0	0	0
+hoangdt	159951	0	0	0
+longnh	456654	1	4	3
+longhd	xxx	0	0	0
+duongld	123	1	4	3
+bac	159845	2	4	3
+bien	123	1	4	3
+khoa	136	2	4	3
+bacdz	1	0	0	0
+ok	1	1	4	3
+ko	5	2	4	3
+it4062	123456	1	4	3
+abc	159	0	0	0
+xxx	xxx	0	0	0
+xxyy	yyxx	1	4	3
+hello	xxx	0	0	0
+erro	404	2	4	3

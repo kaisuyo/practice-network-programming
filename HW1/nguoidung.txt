@@ -1,9 +1,9 @@
 bacnd	123123	0	0	0
 hoangdt	159951	0	0	0
-longnh	456654	1	4	3
+longnh	123456	1	4	3
 longhd	xxx	0	0	0
 duongld	123	1	4	3
-bac	159845	2	4	3
+bac	159845	0	0	0
 bien	123	1	4	3
 khoa	136	2	4	3
 bacdz	1	0	0	0
@@ -14,4 +14,6 @@ abc	159	0	0	0
 xxx	xxx	0	0	0
 xxyy	yyxx	1	4	3
 hello	xxx	0	0	0
-erro	404	2	4	3
+erro	404	0	4	0
+abcde	123	1	4	3	*
+fasdfa	adsfasdf	2	4	3

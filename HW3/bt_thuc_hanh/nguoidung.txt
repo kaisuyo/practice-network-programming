@@ -16,5 +16,13 @@ xxyy	yyxx	1	www.youtube.com	4	3
 hello	xxx	0	www.youtube.com	0	0
 erro	404	0	www.youtube.com	0	0
 abcde	123	1	www.youtube.com	4	3
-ppp	1	1	www.facebook.com	4	3
-ooze	1	2	unknow	4	3	*
+ppp	1	1	www.facebook.com	4	3	*
+ooze	3	2	unknow	4	3	*
+xyzt	123	1	unknow	4	3	*
+aaa	1	1	www.youtube.com	4	3
+bbb	1	2	172.217.24.78	4	3	*
+rrr	1	2	31.13.77.35	4	3	*
+hhh	1	2	unknow.com	4	3	*
+lll	1	2	unknow	4	3
+ooo	1	2	1.1.1.1	4	3	*
+uuu	1	2	unknow	4	3

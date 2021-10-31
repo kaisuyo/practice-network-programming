@@ -9,12 +9,12 @@ khoa	136	0	www.youtube.com	0	0
 bacdz	1	0	www.youtube.com	0	0
 ok	1	0	www.youtube.com	0	0
 ko	5	2	www.youtube.com	4	3
-it4062	adfasdfa1598adfadsf	1	www.youtube.com	4	3
+it4062	a1	1	www.youtube.com	4	3
 abc	159	0	www.youtube.com	0	0
 xxx	xxx	0	www.youtube.com	0	0
 xxyy	bye	0	www.youtube.com	0	0
 hello	xxx	0	www.youtube.com	0	0
 erro	404	0	www.youtube.com	0	0
 abcde	a123csdf52	1	www.youtube.com	4	3
-ppp	12xsc2	1	www.facebook.com	4	3	*
+ppp	1	1	www.facebook.com	4	3
 ooze	1	2	unknow	4	3

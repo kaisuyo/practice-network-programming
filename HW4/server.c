@@ -125,6 +125,16 @@ int main(int argc, char *argv[]) {
 					break;
 				}
 				case SEND_PASS: {
+					if (user->data.isSignIn) {
+						char str[] = "Account is logined on other client.";
+						addToken(str, SEND_NAME);
+						sendBytes = sendto(sockfd, str, strlen(str), 0,(struct sockaddr *) &cliaddr, len);
+						if(sendBytes < 0){
+							perror("Error: ");
+							return 0;
+						}
+						break;
+					}
 					if (strcmp(user->data.password, e[0]) == 0) {
 						char str[] = "OK";
 						addToken(str, SEND_NEW_PASS);

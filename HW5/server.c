@@ -258,7 +258,7 @@ int main(int argc, char *argv[]) {
 	pthread_t threadID;
 	struct ThreadArgs *threadArgs;
 
-	int listenfd, connefd, n;
+	int listenfd, connefd;
 	socklen_t clilen;
 	
 	struct sockaddr_in cliaddr, servaddr;
@@ -287,11 +287,11 @@ int main(int argc, char *argv[]) {
 	// printf("Server running...waiting for connections\n");
 
 	clilen = sizeof(cliaddr);
-	Node user = NULL;
-	int userIndex = -1;
+	// Node user = NULL;
+	// int userIndex = -1;
 
 	while (1) {
-		int sendBytes;
+		// int sendBytes;
 		// accept a connection request -> return a File Descriptor
 		connefd = accept(listenfd, (struct sockaddr*)&cliaddr, &clilen);
 		/* Create separate memory for client argument */

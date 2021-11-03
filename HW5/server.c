@@ -172,7 +172,7 @@ void *ThreadMain(void *threadArgs) {
 					int result = decode(str);
 					if (result == 1) {
 						strcpy(user->data.password, e[0]);
-						addToken(str, OUT);
+						addToken(str, SEND_NAME);
 						sendBytes = send(connefd, str, strlen(str), 0);
 						if(sendBytes < 0){
 							perror("Error");
@@ -193,18 +193,6 @@ void *ThreadMain(void *threadArgs) {
 					break;
 				}
 				case OUT: {
-					if (strcmp(e[0], "bye") != 0) {
-						char str[100] = "use \"bye\" to sign-out current account";
-						addToken(str, OUT);
-						sendBytes = send(connefd, str, strlen(str), 0);
-						if(sendBytes < 0){
-							perror("Error");
-							close(connefd);
-							return 0;
-						}
-						break;
-					}
-
 					char str[100] = "Goodbye ";
 					if (userIndex != -1) {
 						strcat(str, user->data.username);

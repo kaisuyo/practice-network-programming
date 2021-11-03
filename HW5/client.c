@@ -76,10 +76,7 @@ int main(int argc, char *argv[]) {
           close(sockfd);
           return 0;
         }
-        if (strcmp(sendline, "bye") == 0) {
-          addToken(sendline, OUT);
-          break;
-        }
+        
 
         addToken(sendline, SEND_NAME);
         break;
@@ -89,6 +86,10 @@ int main(int argc, char *argv[]) {
         break;
       }
       case SEND_NEW_PASS: {
+        if (strcmp(sendline, "bye") == 0) {
+          addToken(sendline, OUT);
+          break;
+        }
         addToken(sendline, SEND_NEW_PASS);
 				break;
       }

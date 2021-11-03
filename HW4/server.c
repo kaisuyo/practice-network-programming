@@ -177,12 +177,13 @@ int main(int argc, char *argv[]) {
 					int result = decode(str);
 					if (result == 1) {
 						strcpy(user->data.password, e[0]);
-						addToken(str, OUT);
+						addToken(str, SEND_NAME);
 						sendBytes = sendto(sockfd, str, strlen(str), 0,(struct sockaddr *) &cliaddr, len);
 						if(sendBytes < 0){
 							perror("Error: ");
 							return 0;
 						}
+						user->data.isSignIn = 0;
 						writeFile(head, fileName);
 					} else {
 						strcpy(str, "Error");
@@ -196,17 +197,6 @@ int main(int argc, char *argv[]) {
 					break;
 				}
 				case OUT: {
-					if (strcmp(e[0], "bye") != 0) {
-						char str[100] = "use \"bye\" to sign-out current account";
-						addToken(str, OUT);
-						sendBytes = sendto(sockfd, str, strlen(str), 0,(struct sockaddr *) &cliaddr, len);
-						if(sendBytes < 0){
-							perror("Error: ");
-							return 0;
-						}
-						break;
-					}
-
 					char str[100] = "Goodbye ";
 					if (userIndex != -1) {
 						strcat(str, user->data.username);

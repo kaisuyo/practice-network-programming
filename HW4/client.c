@@ -50,11 +50,6 @@ int main(int argc, char *argv[]) {
 				if (strlen(buff) == 0) {
 					return 0;
 				}
-
-				if (strcmp(buff, "bye") == 0) {
-					addToken(buff, OUT);
-					break;
-				}
 				// buff is username
   			addToken(buff, SEND_NAME);
 				break;
@@ -65,6 +60,10 @@ int main(int argc, char *argv[]) {
 				break;
 			}
 			case SEND_NEW_PASS: {
+				if (strcmp(buff, "bye") == 0) {
+					addToken(buff, OUT);
+					break;
+				}
 				addToken(buff, SEND_NEW_PASS);
 				break;
 			}

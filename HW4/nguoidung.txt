@@ -9,7 +9,7 @@ khoa	136	0	www.youtube.com	0	0
 bacdz	1	0	www.youtube.com	0	0
 ok	1	0	www.youtube.com	0	0
 ko	5	2	www.youtube.com	4	3
-it4062	1	1	www.youtube.com	4	3
+it4062	1	1	www.youtube.com	4	3	*
 abc	159	0	www.youtube.com	0	0
 xxx	xxx	0	www.youtube.com	0	0
 xxyy	bye	0	www.youtube.com	0	0

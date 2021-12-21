@@ -1,0 +1,20 @@
+bacnd	123123	0	www.google.com.vn	0	0
+hoangdt	g5mk92	0	8.8.8.8	0	0
+longnh	123456	0	88.vn	4	0
+longhd	xxx	0	www.youtube.com	0	0
+duongld	123	0	125.235.4.59	0	0
+bac	159845	0	www.youtube.com	0	0
+bien	321	1	www.youtube.com	4	3
+khoa	136	0	www.youtube.com	0	0
+bacdz	1	0	www.youtube.com	0	0
+ok	1	0	www.youtube.com	0	0
+ko	5	2	www.youtube.com	4	3
+it4062	1	1	www.youtube.com	4	3	*
+abc	159	0	www.youtube.com	0	0
+xxx	xxx	0	www.youtube.com	0	0
+xxyy	bye	0	www.youtube.com	0	0
+hello	xxx	0	www.youtube.com	0	0
+erro	404	0	www.youtube.com	0	0
+abcde	a123csdf52	1	www.youtube.com	4	3
+ppp	12xsc2	0	www.facebook.com	0	0
+ooze	1	2	unknow	4	3
